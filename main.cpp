@@ -1178,7 +1178,7 @@ public:
         // Memory statistics - Fixed calculation
         uint64_t page_size = getpagesize();
         uint64_t mem_total_pages, mem_free_pages, mem_active_pages, mem_inactive_pages;
-        uint64_t swap_total, swap_used;
+        uint64_t swap_total;
 
         if (safe_sysctl("vm.stats.vm.v_page_count", &mem_total_pages) &&
             safe_sysctl("vm.stats.vm.v_free_count", &mem_free_pages) &&
