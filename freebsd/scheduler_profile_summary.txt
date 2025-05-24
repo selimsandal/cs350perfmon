@@ -1,0 +1,55 @@
+Enhanced Scheduler Performance Analysis Report
+============================================
+
+Platform: FreeBSD
+CPU Cores: 8
+Benchmark Command: geekbench/geekbench6
+Total Duration: 283.14 seconds
+Samples Collected: 1042
+Sample Rate: 3.68 Hz
+
+=== CPU UTILIZATION ===
+Average CPU Usage: 11.63%
+Maximum CPU Usage: 100.00%
+Minimum CPU Usage: 0.00%
+CPU Usage Range: 100.00%
+
+=== MEMORY UTILIZATION ===
+Average Memory Usage: 36812460.53%
+Maximum Memory Usage: 149265806.23%
+Memory Total: 16343 MB
+Swap Usage: 0 MB
+
+=== SCHEDULER PERFORMANCE ===
+Average Load (1min): 0.67
+Maximum Load (1min): 1.24
+Load Efficiency: 8.43% (vs CPU count)
+Context Switches/sec: 0.00
+Peak Process Count: 0
+Peak RT Process Count: 0
+
+=== RESPONSIVENESS ANALYSIS ===
+Average Response Time: 0.00 ms
+Minimum Response Time: 0.00 ms
+Maximum Response Time: 0.00 ms
+95th Percentile Response: 0.00 ms
+99th Percentile Response: 0.00 ms
+Avg Scheduler Latency: 0.02 ms
+Max Scheduler Latency: 39.53 ms
+
+=== LOAD BALANCING ANALYSIS ===
+Mean Core Usage: 11.63%
+Core Usage Std Dev: 4.13%
+Load Balance Quality: 64.46% (higher is better)
+
+Per-Core Average Utilization:
+  Core 0: 10.98%
+  Core 1: 8.77%
+  Core 2: 9.35%
+  Core 3: 7.77%
+  Core 4: 15.66%
+  Core 5: 7.85%
+  Core 6: 20.41%
+  Core 7: 12.22%
+
+=== PERFORMANCE RECOMMENDATIONS ===
