@@ -1,0 +1,55 @@
+Enhanced Scheduler Performance Analysis Report
+============================================
+
+Platform: Linux
+CPU Cores: 8
+Benchmark Command: Benchmarks/geekbench/geekbench6
+Total Duration: 263.56 seconds
+Samples Collected: 1001
+Sample Rate: 3.80 Hz
+
+=== CPU UTILIZATION ===
+Average CPU Usage: 9.28%
+Maximum CPU Usage: 100.00%
+Minimum CPU Usage: 0.00%
+CPU Usage Range: 100.00%
+
+=== MEMORY UTILIZATION ===
+Average Memory Usage: 12.64%
+Maximum Memory Usage: 28.72%
+Memory Total: 15432 MB
+Swap Usage: 0 MB
+
+=== SCHEDULER PERFORMANCE ===
+Average Load (1min): 0.79
+Maximum Load (1min): 1.62
+Load Efficiency: 9.87% (vs CPU count)
+Context Switches/sec: 1263129.20
+Peak Process Count: 399
+Peak RT Process Count: 0
+
+=== RESPONSIVENESS ANALYSIS ===
+Average Response Time: 0.00 ms
+Minimum Response Time: 0.00 ms
+Maximum Response Time: 0.01 ms
+95th Percentile Response: 0.00 ms
+99th Percentile Response: 0.00 ms
+Avg Scheduler Latency: 0.01 ms
+Max Scheduler Latency: 4.77 ms
+
+=== LOAD BALANCING ANALYSIS ===
+Mean Core Usage: 9.28%
+Core Usage Std Dev: 4.29%
+Load Balance Quality: 53.78% (higher is better)
+
+Per-Core Average Utilization:
+  Core 0: 8.58%
+  Core 1: 16.24%
+  Core 2: 16.32%
+  Core 3: 6.36%
+  Core 4: 5.38%
+  Core 5: 9.87%
+  Core 6: 5.59%
+  Core 7: 5.94%
+
+=== PERFORMANCE RECOMMENDATIONS ===
