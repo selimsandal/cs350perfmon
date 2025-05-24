@@ -1,3 +1,5 @@
 cmake-build-*
 .idea
 .vscode
+Benchmarks
+responsiveness_test.tmp
