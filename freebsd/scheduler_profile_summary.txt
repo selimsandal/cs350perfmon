@@ -3,53 +3,54 @@ Enhanced Scheduler Performance Analysis Report
 
 Platform: FreeBSD
 CPU Cores: 8
-Benchmark Command: geekbench/geekbench6
-Total Duration: 283.14 seconds
-Samples Collected: 1042
+Benchmark Command: Benchmarks/geekbench/geekbench6
+Total Duration: 285.39 seconds
+Samples Collected: 1050
 Sample Rate: 3.68 Hz
 
 === CPU UTILIZATION ===
-Average CPU Usage: 11.63%
+Average CPU Usage: 12.43%
 Maximum CPU Usage: 100.00%
 Minimum CPU Usage: 0.00%
 CPU Usage Range: 100.00%
 
 === MEMORY UTILIZATION ===
-Average Memory Usage: 36812460.53%
-Maximum Memory Usage: 149265806.23%
-Memory Total: 16343 MB
-Swap Usage: 0 MB
+Average Memory Usage: 4.66%
+Maximum Memory Usage: 20.47%
+Memory Total: 15899 MB
+Swap Usage: 111668 MB
 
 === SCHEDULER PERFORMANCE ===
-Average Load (1min): 0.67
-Maximum Load (1min): 1.24
-Load Efficiency: 8.43% (vs CPU count)
-Context Switches/sec: 0.00
-Peak Process Count: 0
-Peak RT Process Count: 0
+Average Load (1min): 1.00
+Maximum Load (1min): 2.65
+Load Efficiency: 12.44% (vs CPU count)
+Context Switches/sec: 10575771.40
+Peak Process Count: 39
+Peak RT Process Count: 4
 
 === RESPONSIVENESS ANALYSIS ===
 Average Response Time: 0.00 ms
 Minimum Response Time: 0.00 ms
-Maximum Response Time: 0.00 ms
+Maximum Response Time: 0.01 ms
 95th Percentile Response: 0.00 ms
 99th Percentile Response: 0.00 ms
-Avg Scheduler Latency: 0.02 ms
-Max Scheduler Latency: 39.53 ms
+Avg Scheduler Latency: 0.06 ms
+Max Scheduler Latency: 56.36 ms
 
 === LOAD BALANCING ANALYSIS ===
-Mean Core Usage: 11.63%
-Core Usage Std Dev: 4.13%
-Load Balance Quality: 64.46% (higher is better)
+Mean Core Usage: 12.43%
+Core Usage Std Dev: 4.35%
+Load Balance Quality: 65.02% (higher is better)
 
 Per-Core Average Utilization:
-  Core 0: 10.98%
-  Core 1: 8.77%
-  Core 2: 9.35%
-  Core 3: 7.77%
-  Core 4: 15.66%
-  Core 5: 7.85%
-  Core 6: 20.41%
-  Core 7: 12.22%
+  Core 0: 11.33%
+  Core 1: 11.10%
+  Core 2: 9.53%
+  Core 3: 8.49%
+  Core 4: 21.93%
+  Core 5: 17.11%
+  Core 6: 10.10%
+  Core 7: 9.84%
 
 === PERFORMANCE RECOMMENDATIONS ===
+- Real-time processes detected. Monitor RT scheduling impact.
