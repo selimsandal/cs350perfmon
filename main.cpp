@@ -13,6 +13,7 @@
 #include <algorithm>
 #include <numeric>
 #include <iomanip>
+#include <cmath>
 
 #ifdef _WIN32
 #define NOMINMAX
